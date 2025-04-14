@@ -1,0 +1,5 @@
+/.vscode
+
+# Ignore all images
+*.png
+*.svg

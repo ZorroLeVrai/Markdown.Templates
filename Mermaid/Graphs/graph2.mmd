@@ -1,0 +1,6 @@
+graph TD
+  A[Get dependency] --> B[Find dependency]
+  B --> C[We have it loaded ?]
+  C -- no --> D[Create and store dependency]
+  C -- yes --> E[Use it]
+  D --> E
